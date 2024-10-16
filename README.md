@@ -21,7 +21,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 1. Clonez le dépôt :
 
    ```bash
-   git clone https://github.com/votre-nom-utilisateur/votre-repo.git
+   git clone https://github.com/Mohamed-sbita/Todo-App.git
    cd votre-repo
 2. Installez les dépendances :
 
