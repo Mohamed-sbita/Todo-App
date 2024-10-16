@@ -25,9 +25,11 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
    cd votre-repo
 2. Installez les dépendances :
 
-     npm install
+    ```bash
+      npm install
 
 3. Démarrez le projet :
 
+  ```bash
      npm start
 
