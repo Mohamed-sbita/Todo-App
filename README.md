@@ -22,7 +22,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
    ```bash
    git clone https://github.com/Mohamed-sbita/Todo-App.git
-   cd votre-repo
+   cd Todo-App
 2. Installez les dépendances :
 
     ```bash
