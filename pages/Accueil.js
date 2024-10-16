@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
-import { getTasks } from './TaskStorage'; // Assuming you fetch tasks from AsyncStorage
+import { getTasks } from './TaskStorage'; 
 
 export default function Accueil({ navigation }) {
   const [taskCounts, setTaskCounts] = useState({

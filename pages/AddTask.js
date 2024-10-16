@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 import DateTimePicker from '@react-native-community/datetimepicker';
-import { saveTask } from './TaskStorage'; // Import saveTask function
+import { saveTask } from './TaskStorage'; 
 
 export default function AddTask({ navigation }) {
   const [title, setTitle] = useState('');

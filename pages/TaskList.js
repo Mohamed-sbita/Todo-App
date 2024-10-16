@@ -25,7 +25,7 @@ export default function TaskList({ navigation, route }) {
     fetchTasks();
 
     const unsubscribe = navigation.addListener("focus", fetchTasks);
-    return unsubscribe; // Clean up the event listener
+    return unsubscribe; 
   }, [navigation]);
 
   const handleDeleteTask = async (index) => {
@@ -84,7 +84,7 @@ export default function TaskList({ navigation, route }) {
           </View>
         ))
       ) : (
-        <Text>No tasks available.</Text>
+        <Text>aucune tâche disponible. </Text>
       )}
     </ScrollView>
   );
